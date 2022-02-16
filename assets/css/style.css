@@ -113,6 +113,7 @@ section p{
 
 .card__content:hover .card__rounded-orange{border: 1px solid #e96227;background: #e96227;transition:.4s;}
 .card__content:hover .card__rounded-blue{border: 1px solid #254bdd;background: #254bdd;transition:.4s;}
+.card__content:hover .card__rounded-light-blue{border: 1px solid #5ed3f3;background: #5ed3f3;transition:.4s;}
 .card__content:hover .card__rounded-yellow{border: 1px solid #e9ba25;background: #e9ba25;transition:.4s;}
 .card__content:hover .card__rounded-purple{border: 1px solid #6f42c1;background: #6f42c1;transition:.4s;}
 .card__content:hover .card__rounded-purple2{border: 1px solid #7377ad;background: #7377ad;transition:.4s;}
@@ -125,6 +126,22 @@ section p{
 
 .card .card__text{
     margin-top: 31px;
+}
+
+.card .card__padding-none{
+	padding: 0px;
+}
+
+.card .card__btn{
+	background: #222227;
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 2px 62px;
+    border-radius: 3px;
+}
+.card__btn:hover{
+	opacity: 0.8;
 }
 /* Footer */
 footer p > a {
@@ -279,4 +296,9 @@ footer p > a:hover {color:#fff; text-decoration: none;}
   }
 }
 /*end social media 3D*/
-
+.icon-react{
+	width: 85px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
